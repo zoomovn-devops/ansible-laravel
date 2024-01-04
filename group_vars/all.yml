@@ -1,0 +1,7 @@
+root_dir: "/var/www/laravel"
+repository: "git@git.zoomovn.com:ZoomoVN/devops-docker/laravel-ssh-source.git"
+branch: "master"
+dbuser: zoomouser
+dbname: zoomodb
+dbpassword: zoomo86Aa@
+scm_key: "/root/.ssh/id_rsa"

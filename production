@@ -1,0 +1,9 @@
+[webservers]
+45.32.62.179 ansible_ssh_user=root ansible_ssh_port=8222 ansible_ssh_private_key_file=ssh_key/id_rsa
+
+[dbservers]
+45.32.62.179 ansible_ssh_user=root ansible_ssh_port=8222 ansible_ssh_private_key_file=ssh_key/id_rsa
+
+[all:children]
+webservers
+dbservers
